@@ -1,0 +1,40 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+dist/
+build/
+/Build_Tools/build-main/
+/VK-message-history/
+
+# Universal Kit Exclusions:
+00_CrRel.pyw
+00_Move.pyw
+*_template.pyw
+*_GUIDE.md
+Build_Tools/*.template
+Build_Tools/*_template.py
+
+# Release Guide Exclusions
+logo.png
+Sessions/
+*.lnk
+*.bat
+*.log
+*.tmp
+*.json
+.DS_Store
+.idea/
+.vscode/
+.env.local
+.env.production
+test_output/
+fixtures/temp/
+node_modules/
+pycache/
+target/
+
+# Exceptions
+!Build_Tools/VK-message-history.spec
